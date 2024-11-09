@@ -6,5 +6,5 @@ function count(){
     totalChar.textContent = enteredText.value.length;
     remainingChar.textContent = countLimit - enteredText.value.length;
 }
-enteredText.addEventListener('input', count())
+enteredText.addEventListener('input', count);
 })

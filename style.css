@@ -17,6 +17,10 @@ h1{
 #enteredText{
     height: 40%;
     width: 85%;
+    font-size: 4vh;
+    vertical-align: text-top;
+    text-align: left;
+    border: black solid 0.2vh;
 }
 .innerBox{
     height: 50%;
@@ -25,14 +29,19 @@ h1{
     flex-direction: column;
     background-color: rgba(255,183,194,255);
     margin-top: 12%;
-    border-radius: 5px;
-    border: black solid 1px;
+    border-radius: 3vh;
+    border: black solid 0.2vh;
     justify-content: center;
     align-items: center;
     overflow: auto;
 }
 .bottomText{
     font-family: "Itim", cursive;
-    font-size: 5ch; 
+    font-size: 4.3vh; 
+    display: inline-block;
 }
-/* 486,705 is the collapse value.....itha maathanum media use panni */
+.edittext{
+    display: inline-block;
+    color: rgba(128, 128, 128, 0.684);
+}
+/* 486,705 is the collapse value.....itha maathanum media use panni.....illa ila intha value thappu..system ku system maarutu */
